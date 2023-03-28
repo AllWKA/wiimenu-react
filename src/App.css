@@ -2,3 +2,19 @@
     height: 100vh;
     width: 100vw;
 }
+
+.channel-row {
+    width: 100%;
+    height: 32%;
+    display: flex;
+    justify-content: space-around;
+    z-index: 1;
+}
+
+.channel-rows-container {
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
